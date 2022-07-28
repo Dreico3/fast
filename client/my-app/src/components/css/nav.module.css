@@ -1,0 +1,36 @@
+.nav{
+    position:fixed relative;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "uno dos tres";
+    background-color:#ed2b2b;
+    border-bottom: 1px solid;
+}
+.caja{
+    grid-area: dos;
+    display: flex;
+    padding: 10px;
+
+}
+
+.caja input{
+    width:300px;
+}
+
+.btn_send{
+    background-color: #3b1ea3;
+    color: white;
+    border-radius: 10px;
+    margin: 0%;
+    border: 0px;
+    padding: 5px 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 10px;
+}
+.btn_send:hover {
+    background-color: #2a0a75;
+}
