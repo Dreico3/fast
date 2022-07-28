@@ -4,17 +4,19 @@ export default function Nav(props) {
    
     return (
         <div className={styles.nav}>
-            <form   class={styles.caja}
+            <form   className={styles.caja}
                     role="search"
                     onSubmit={e => {
                         e.preventDefault();
-                        alert("me enviaste=?? no lo creo "+props.nombre);
+                        props.retornar(props.nombre);
+                        props.setState("")
                 }}>
-                <input  class="form-control me-2" 
+                <input  className="form-control me-2" 
                         type="search" 
                         placeholder="Search" 
                         aria-label="Search"
-                        onChange={e=>props.setState(e)}/>
+                        onChange={e=>props.setState(e)}
+                        value={props.nombre}/>
                 <button type="submit"  
                         className={styles.btn_send}>
                             Send</button>
