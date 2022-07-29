@@ -36,3 +36,5 @@ correr el front
 ```
 $ npm start
 ```
+---
+para poder ver la pagina pulsar [aqui](https://front-palindromo.herokuapp.com/)
