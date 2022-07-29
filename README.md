@@ -1,4 +1,6 @@
 # Fast o appPalindromus
+### descripcion
+**Es una simple app para dar la vuelta los textos**
 ### servidor
 *Primero* para poder correr el servidor
 entrar a la carpeta api
